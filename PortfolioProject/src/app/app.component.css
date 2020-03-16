@@ -1,5 +1,63 @@
-/*-- Home Section ---------------------------------------------------------- */
-/*-- About Section --------------------------------------------------------- */
-/*-- Projects Section ------------------------------------------------------ */
-/*-- Contact Section ------------------------------------------------------- */
-/*-- Footer Section -------------------------------------------------------- */
+/* -- Home Section ---------------------------------- */
+#home {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Video Background */
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,.5);
+}
+
+/* Main Title */
+@font-face { font-family: alex-brush; src: url(../assets/font/alex-brush.ttf)}
+.main-title {
+  position: absolute;
+  top: 30%;
+  color: white;
+  font-family: alex-brush, sans-serif;
+  font-size: 5rem;
+}
+
+/* Social Icons */
+.social-icons {
+  position: absolute;
+  top: 60%;
+  margin-left: 5px;
+}
+
+.social-icons fa-icon {
+  font-size: 3rem;
+  color: white;
+  padding: 7.5px 15px;
+  cursor: pointer;
+}
+
+.social-icons fa-icon:hover {
+  color: #202020;
+  background-color: white;
+}
+/* -- About Section --------------------------------- */
+/* -- Projects Section ------------------------------ */
+/* -- Contact Section ------------------------------- */
+/* -- Footer Section -------------------------------- */

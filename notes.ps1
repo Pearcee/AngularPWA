@@ -40,3 +40,6 @@ firebase init
 ng build --prod --build-optimizer
 firebase deploy
 
+#fonts
+
+npm install @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons --save-dev
