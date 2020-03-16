@@ -33,9 +33,10 @@ cd PortfolioProject
 ng add @angular/cli
 ng add @angular/pwa
 ng serve -o
-npm install -g  firebase-tools
- firebase init
-ng build --prod --build-optimizer
 
+
+npm install -g  firebase-tools
+firebase init
+ng build --prod --build-optimizer
 firebase deploy
 
